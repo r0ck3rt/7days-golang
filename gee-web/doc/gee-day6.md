@@ -1,21 +1,15 @@
 ---
 title: Go语言动手写Web框架 - Gee第六天 模板(HTML Template)
-date: 2019-09-08 20:10:00
-description: 7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以 Gin 为原型从零设计一个Web框架。本文介绍了如何为Web框架添加HTML模板(HTML Template)以及静态文件(Serve Static Files)的功能。
+description: >-
+  7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以
+  Gin 为原型从零设计一个Web框架。本文介绍了如何为Web框架添加HTML模板(HTML Template)以及静态文件(Serve Static Files)的功能。
+date: '2019-09-09 04:10:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- Web框架 - Gee
-keywords:
-- Go语言
-- 从零实现Web框架
-- 动手写Web框架
-- Template
-image: post/gee-day6/html.png
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day6 模板 Template
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: gee-day6/html.png
 ---
 
 本文是 [7天用Go从零实现Web框架Gee教程系列](https://geektutu.com/post/gee.html)的第六篇。

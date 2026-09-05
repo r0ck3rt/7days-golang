@@ -1,22 +1,15 @@
 ---
-title: 动手写ORM框架 - GeeORM第六天 支持事务(Transaction) 
-date: 2020-03-08 21:00:00
-description: 7天用 Go语言/golang 从零实现 ORM 框架 GeeORM 教程(7 days implement golang object relational mapping framework from scratch tutorial)，动手写 ORM 框架，参照 gorm, xorm 的实现。介绍数据库中的事务(transaction)；封装事务，用户自定义回调函数实现原子操作。
+title: 动手写ORM框架 - GeeORM第六天 支持事务(Transaction)
+description: >-
+  7天用 Go语言/golang 从零实现 ORM 框架 GeeORM 教程(7 days implement golang object relational mapping framework from scratch
+  tutorial)，动手写 ORM 框架，参照 gorm, xorm 的实现。介绍数据库中的事务(transaction)；封装事务，用户自定义回调函数实现原子操作。
+date: '2020-03-09 05:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- ORM框架 - GeeORM
-keywords:
-- Go语言
-- 从零实现ORM框架
-- database/sql
-- sqlite
-- transaction
-image: post/geeorm/geeorm_sm.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day6 支持事务
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geeorm/geeorm_sm.jpg
 ---
 
 本文是[7天用Go从零实现ORM框架GeeORM](https://geektutu.com/post/geeorm.html)的第六篇。

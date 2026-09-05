@@ -1,22 +1,15 @@
 ---
 title: 动手写分布式缓存 - GeeCache第二天 单机并发缓存
-date: 2020-02-12 22:00:00
-description: 7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照 groupcache 的实现。本文介绍了 sync.Mutex 互斥锁的使用，并发控制 LRU 缓存。实现 GeeCache 核心数据结构 Group，缓存不存在时，调用回调函数(callback)获取源数据。
+description: >-
+  7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照
+  groupcache 的实现。本文介绍了 sync.Mutex 互斥锁的使用，并发控制 LRU 缓存。实现 GeeCache 核心数据结构 Group，缓存不存在时，调用回调函数(callback)获取源数据。
+date: '2020-02-13 06:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- 分布式缓存 - GeeCache
-keywords:
-- Go语言
-- 从零实现
-- 分布式缓存
-- 互斥锁
-- sync.Mutex
-image: post/geecache-day2/concurrent_cache_logo.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day2 单机并发缓存
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geecache-day2/concurrent_cache_logo.jpg
 ---
 
 ![geecache concurrent cache](geecache-day2/concurrent_cache.jpg)

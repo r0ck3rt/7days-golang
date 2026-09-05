@@ -1,21 +1,15 @@
 ---
 title: Go语言动手写Web框架 - Gee第二天 上下文Context
-date: 2019-08-19 00:10:10
-description: 7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以 Gin 为原型从零设计一个Web框架。本文介绍了请求上下文(Context)的设计理念，封装了返回JSON/String/Data/HTML等类型响应的方法。
+description: >-
+  7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以
+  Gin 为原型从零设计一个Web框架。本文介绍了请求上下文(Context)的设计理念，封装了返回JSON/String/Data/HTML等类型响应的方法。
+date: '2019-08-19 08:10:10'
 tags:
-- Go
-nav: 从零实现
-categories:
-- Web框架 - Gee
-keywords:
-- Go语言
-- 从零实现Web框架
-- 动手写Web框架
-- Context
-image: post/gee/gee.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day2 上下文
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: gee/gee.jpg
 ---
 
 本文是 [7天用Go从零实现Web框架Gee教程系列](https://geektutu.com/post/gee.html)的第二篇。

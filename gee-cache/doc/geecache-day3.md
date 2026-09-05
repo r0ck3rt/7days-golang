@@ -1,21 +1,15 @@
 ---
 title: 动手写分布式缓存 - GeeCache第三天 HTTP 服务端
-date: 2020-02-12 23:00:00
-description: 7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照 groupcache 的实现。本文介绍了如何使用标准库 http 搭建 HTTP Server，为 GeeCache 单机节点搭建 HTTP 服务，并进行相关的测试。
+description: >-
+  7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照
+  groupcache 的实现。本文介绍了如何使用标准库 http 搭建 HTTP Server，为 GeeCache 单机节点搭建 HTTP 服务，并进行相关的测试。
+date: '2020-02-13 07:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- 分布式缓存 - GeeCache
-keywords:
-- Go语言
-- 从零实现
-- 分布式缓存
-- HTTP Server
-image: post/geecache-day3/http_logo.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day3 HTTP 服务端
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geecache-day3/http_logo.jpg
 ---
 
 ![geecache http server](geecache-day3/http.jpg)

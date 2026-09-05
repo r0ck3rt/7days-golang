@@ -1,21 +1,15 @@
 ---
 title: 动手写分布式缓存 - GeeCache第四天 一致性哈希(hash)
-date: 2020-02-16 20:00:00
-description: 7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照 groupcache 的实现。本文介绍了一致性哈希(consistent hashing)的原理、实现以及相关测试用例，一致性哈希为什么能避免缓存雪崩，虚拟节点为什么能解决数据倾斜的问题。
+description: >-
+  7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照
+  groupcache 的实现。本文介绍了一致性哈希(consistent hashing)的原理、实现以及相关测试用例，一致性哈希为什么能避免缓存雪崩，虚拟节点为什么能解决数据倾斜的问题。
+date: '2020-02-17 04:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- 分布式缓存 - GeeCache
-keywords:
-- Go语言
-- 从零实现
-- 一致性hash
-- consistent hash
-image: post/geecache-day4/hash_logo.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day4 一致性哈希
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geecache-day4/hash_logo.jpg
 ---
 
 ![一致性哈希 consistent hashing](geecache-day4/hash.jpg)

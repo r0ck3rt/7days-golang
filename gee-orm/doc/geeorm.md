@@ -1,22 +1,16 @@
 ---
 title: 7天用Go从零实现ORM框架GeeORM
-date: 2020-03-01 01:00:00
-description: 7天用 Go语言/golang 从零实现 ORM 框架 GeeORM 教程(7 days implement golang object relational mapping framework from scratch tutorial)，动手写 ORM 框架，参照 gorm, xorm 的实现。功能包括对象和表结构的相互映射，表的创建删除(table)，记录的增删查改，事务支持(transaction)，数据库迁移(migrate)，钩子(hooks)等。
+description: >-
+  7天用 Go语言/golang 从零实现 ORM 框架 GeeORM 教程(7 days implement golang object relational mapping framework from scratch
+  tutorial)，动手写 ORM 框架，参照 gorm, xorm
+  的实现。功能包括对象和表结构的相互映射，表的创建删除(table)，记录的增删查改，事务支持(transaction)，数据库迁移(migrate)，钩子(hooks)等。
+date: '2020-03-01 09:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- ORM框架 - GeeORM
-keywords:
-- Go语言
-- 从零实现ORM框架
-- 动手写ORM框架
-- database/sql
-- sqlite3
-image: post/geeorm/geeorm_sm.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day0 序言
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geeorm/geeorm_sm.jpg
 ---
 
 ![golang ORM framework](geeorm/geeorm.jpg)

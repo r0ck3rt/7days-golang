@@ -1,20 +1,16 @@
 ---
 title: 动手写RPC框架 - GeeRPC第四天 超时处理(timeout)
-date: 2020-10-07 23:00:00
-description: 7天用 Go语言/golang 从零实现 RPC 框架 GeeRPC 教程(7 days implement golang remote procedure call framework from scratch tutorial)，动手写 RPC 框架，参照 golang 标准库 net/rpc 的实现，实现了服务端(server)、支持异步和并发的客户端(client)、消息编码与解码(message encoding and decoding)、服务注册(service register)、支持 TCP/Unix/HTTP 等多种传输协议。第四天为RPC框架提供了处理超时的能力(timeout processing)。
+description: >-
+  7天用 Go语言/golang 从零实现 RPC 框架 GeeRPC 教程(7 days implement golang remote procedure call framework from scratch
+  tutorial)，动手写 RPC 框架，参照 golang 标准库 net/rpc 的实现，实现了服务端(server)、支持异步和并发的客户端(client)、消息编码与解码(message encoding and
+  decoding)、服务注册(service register)、支持 TCP/Unix/HTTP 等多种传输协议。第四天为RPC框架提供了处理超时的能力(timeout processing)。
+date: '2020-10-08 07:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- RPC框架 - GeeRPC
-keywords:
-- Go语言
-- 从零实现RPC框架
-- 连接超时
-image: post/geerpc/geerpc.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day4 超时处理
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geerpc/geerpc.jpg
 ---
 
 ![golang RPC framework](geerpc/geerpc.jpg)

@@ -1,21 +1,15 @@
 ---
 title: Go语言动手写Web框架 - Gee第五天 中间件Middleware
-date: 2019-09-01 20:10:10
-description: 7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以 Gin 为原型从零设计一个Web框架。本文介绍了如何为Web框架添加中间件的功能(middlewares)。
+description: >-
+  7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以
+  Gin 为原型从零设计一个Web框架。本文介绍了如何为Web框架添加中间件的功能(middlewares)。
+date: '2019-09-02 04:10:10'
 tags:
-- Go
-nav: 从零实现
-categories:
-- Web框架 - Gee
-keywords:
-- Go语言
-- 从零实现Web框架
-- 动手写Web框架
-- Middlewares
-image: post/gee-day5/middleware.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day5 中间件
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: gee-day5/middleware.jpg
 ---
 
 本文是 [7天用Go从零实现Web框架Gee教程系列](https://geektutu.com/post/gee.html)的第五篇。

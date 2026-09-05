@@ -1,24 +1,16 @@
 ---
 title: 动手写分布式缓存 - GeeCache第一天 LRU 缓存淘汰策略
-date: 2020-02-11 22:00:00
-description: 7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照 groupcache 的实现。本文介绍了常用的三种缓存淘汰(失效)算法：先进先出(FIFO)，最少使用(LFU) 和 最近最少使用(LRU)，并实现 LRU 算法和相应的测试代码。
+description: >-
+  7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照
+  groupcache 的实现。本文介绍了常用的三种缓存淘汰(失效)算法：先进先出(FIFO)，最少使用(LFU) 和 最近最少使用(LRU)，并实现 LRU 算法和相应的测试代码。
+date: '2020-02-12 06:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- 分布式缓存 - GeeCache
-keywords:
-- Go语言
-- 从零实现
-- 分布式缓存
-- LRU
-- 缓存失效
-image: post/geecache-day1/lru_logo.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day1 LRU 缓存淘汰策略
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geecache-day1/lru_logo.jpg
 ---
-
 
 本文是[7天用Go从零实现分布式缓存GeeCache教程系列](https://geektutu.com/post/geecache.html)的第一篇。
 

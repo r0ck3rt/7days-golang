@@ -1,22 +1,15 @@
 ---
 title: Go语言动手写Web框架 - Gee第七天 错误恢复(Panic Recover)
-date: 2020-01-09 01:00:00
-description: 7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以 Gin 为原型从零设计一个Web框架。本文介绍了如何为Web框架增加错误处理机制。
+description: >-
+  7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以
+  Gin 为原型从零设计一个Web框架。本文介绍了如何为Web框架增加错误处理机制。
+date: '2020-01-09 09:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- Web框架 - Gee
-keywords:
-- Go语言
-- 从零实现Web框架
-- 动手写Web框架
-- Panic
-- Recover
-image: post/gee-day7/go-panic.png
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day7 错误恢复
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: gee-day7/go-panic.png
 ---
 
 本文是[7天用Go从零实现Web框架Gee教程系列](https://geektutu.com/post/gee.html)的第七篇。
@@ -289,4 +282,3 @@ Traceback:
 
 - [Package runtime - golang.org](https://golang.org/pkg/runtime/)
 - [Is it possible get information about caller function in Golang? - StackOverflow](https://stackoverflow.com/questions/35212985/is-it-possible-get-information-about-caller-function-in-golang)
-

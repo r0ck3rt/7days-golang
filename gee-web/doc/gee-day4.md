@@ -1,21 +1,15 @@
 ---
 title: Go语言动手写Web框架 - Gee第四天 分组控制Group
-date: 2019-09-01 15:10:10
-description: 7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以 Gin 为原型从零设计一个Web框架。本文介绍了分组控制(Group Control)的意义，以及嵌套分组路由的实现。
+description: >-
+  7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以
+  Gin 为原型从零设计一个Web框架。本文介绍了分组控制(Group Control)的意义，以及嵌套分组路由的实现。
+date: '2019-09-01 23:10:10'
 tags:
-- Go
-nav: 从零实现
-categories:
-- Web框架 - Gee
-keywords:
-- Go语言
-- 从零实现Web框架
-- 动手写Web框架
-- Group Control
-image: post/gee-day4/group.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day4 分组控制
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: gee-day4/group.jpg
 ---
 
 本文是 [7天用Go从零实现Web框架Gee教程系列](https://geektutu.com/post/gee.html)的第四篇。
@@ -165,4 +159,3 @@ hello geektutu, you're at /v1/hello
 $ curl "http://localhost:9999/v2/hello/geektutu"
 hello geektutu, you're at /hello/geektutu
 ```
-

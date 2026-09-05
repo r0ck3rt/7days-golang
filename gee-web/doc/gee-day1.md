@@ -1,21 +1,15 @@
 ---
 title: Go语言动手写Web框架 - Gee第一天 http.Handler
-date: 2019-08-12 00:10:10
-description: 7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以 Gin 为原型从零设计一个Web框架。本文介绍了Go标准库 net/http 和 http.Handler 接口的使用，拦截所有的 HTTP 请求，交给Gee框架处理。
+description: >-
+  7天用 Go语言 从零实现Web框架教程(7 days implement golang web framework from scratch tutorial)，用 Go语言/golang 动手写Web框架，从零实现一个Web框架，以
+  Gin 为原型从零设计一个Web框架。本文介绍了Go标准库 net/http 和 http.Handler 接口的使用，拦截所有的 HTTP 请求，交给Gee框架处理。
+date: '2019-08-12 08:10:10'
 tags:
-- Go
-nav: 从零实现
-categories:
-- Web框架 - Gee
-keywords:
-- Go语言
-- 从零实现Web框架
-- 动手写Web框架
-- net/http
-image: post/gee/gee.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day1 HTTP 基础
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: gee/gee.jpg
 ---
 
 本文是 [7天用Go从零实现Web框架Gee教程系列](https://geektutu.com/post/gee.html)的第一篇。
@@ -264,8 +258,3 @@ curl http://localhost:9999/world
 ```
 
 至此，整个`Gee`框架的原型已经出来了。实现了路由映射表，提供了用户注册静态路由的方法，包装了启动服务的函数。当然，到目前为止，我们还没有实现比`net/http`标准库更强大的能力，不用担心，很快就可以将动态路由、中间件等功能添加上去了。
-
-
-
-
-

@@ -1,21 +1,15 @@
 ---
 title: 动手写分布式缓存 - GeeCache第七天 使用 Protobuf 通信
-date: 2020-02-17 00:30:00
-description: 7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照 groupcache 的实现。本文介绍了使用 protobuf(protocol buffer) 进行节点间通信，编码报文，提高效率
+description: >-
+  7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照
+  groupcache 的实现。本文介绍了使用 protobuf(protocol buffer) 进行节点间通信，编码报文，提高效率
+date: '2020-02-17 08:30:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- 分布式缓存 - GeeCache
-keywords:
-- Go语言
-- 从零实现
-- HTTP客户端
-- 分布式节点
-image: post/geecache-day7/protobuf_logo.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day7 使用 Protobuf 通信
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geecache-day7/protobuf_logo.jpg
 ---
 
 ![geecache protobuf](geecache-day7/protobuf.jpg)

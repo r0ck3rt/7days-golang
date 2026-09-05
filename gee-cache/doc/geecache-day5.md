@@ -1,21 +1,15 @@
 ---
 title: 动手写分布式缓存 - GeeCache第五天 分布式节点
-date: 2020-02-16 21:30:00
-description: 7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照 groupcache 的实现。本文介绍了为 GeeCache 添加了注册节点与选择节点的功能，并实现了 HTTP 客户端，与远程节点的服务端通信。
+description: >-
+  7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照
+  groupcache 的实现。本文介绍了为 GeeCache 添加了注册节点与选择节点的功能，并实现了 HTTP 客户端，与远程节点的服务端通信。
+date: '2020-02-17 05:30:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- 分布式缓存 - GeeCache
-keywords:
-- Go语言
-- 从零实现
-- HTTP客户端
-- 分布式节点
-image: post/geecache-day5/dist_nodes_logo.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day5 分布式节点
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geecache-day5/dist_nodes_logo.jpg
 ---
 
 ![分布式缓存节点](geecache-day5/dist_nodes.jpg)

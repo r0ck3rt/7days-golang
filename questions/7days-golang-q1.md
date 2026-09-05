@@ -1,20 +1,13 @@
 ---
 title: Go 接口型函数的使用场景
-date: 2020-10-25 12:30:00
 description: Go 语言/golang 中函数式接口或接口型函数的实现与价值，什么是接口型函数，为什么不直接将函数作为参数，而是封装为一个接口。Go 语言标准库 net/http 中是如何使用接口型函数的。
+date: '2020-10-25 20:30:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- 7days-golang Q & A
-keywords:
-- 函数式接口
-- 接口型函数
-- net/http
-image: post/7days-golang-q1/7days-golang-qa.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: 接口型函数
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: 7days-golang-q1/7days-golang-qa.jpg
 ---
 
 ![7days-golang 有价值的问题](7days-golang-q1/7days-golang-qa.jpg)

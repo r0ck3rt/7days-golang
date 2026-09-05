@@ -1,20 +1,15 @@
 ---
 title: 7天用Go从零实现分布式缓存GeeCache
-date: 2020-02-08 01:00:00
-description: 7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照 groupcache 的实现。功能包括单机/分布式缓存，LRU (Least Recently Used) 缓存策略，防止缓存击穿、一致性哈希(Consistent Hash)，protobuf 通信等。
+description: >-
+  7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照
+  groupcache 的实现。功能包括单机/分布式缓存，LRU (Least Recently Used) 缓存策略，防止缓存击穿、一致性哈希(Consistent Hash)，protobuf 通信等。
+date: '2020-02-08 09:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- 分布式缓存 - GeeCache
-keywords:
-- Go语言
-- 从零实现分布式缓存
-- 动手写分布式缓存
-image: post/geecache/geecache_sm.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day0 序言
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geecache/geecache_sm.jpg
 ---
 
 ![分布式缓存geecache](geecache/geecache.jpg)

@@ -1,21 +1,15 @@
 ---
 title: 动手写分布式缓存 - GeeCache第六天 防止缓存击穿
-date: 2020-02-16 23:00:00
-description: 7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照 groupcache 的实现。本文介绍了缓存雪崩、缓存击穿与缓存穿透的概念，使用 singleflight 防止缓存击穿，实现与测试。
+description: >-
+  7天用 Go语言/golang 从零实现分布式缓存 GeeCache 教程(7 days implement golang distributed cache from scratch tutorial)，动手写分布式缓存，参照
+  groupcache 的实现。本文介绍了缓存雪崩、缓存击穿与缓存穿透的概念，使用 singleflight 防止缓存击穿，实现与测试。
+date: '2020-02-17 07:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- 分布式缓存 - GeeCache
-keywords:
-- Go语言
-- 从零实现
-- HTTP客户端
-- 分布式节点
-image: post/geecache-day6/singleflight_logo.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day6 防止缓存击穿
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geecache-day6/singleflight_logo.jpg
 ---
 
 ![geecache single flight](geecache-day6/singleflight.jpg)

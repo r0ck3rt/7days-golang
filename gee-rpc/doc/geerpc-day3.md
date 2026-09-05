@@ -1,21 +1,16 @@
 ---
 title: 动手写RPC框架 - GeeRPC第三天 服务注册(service register)
-date: 2020-10-07 19:00:00
-description: 7天用 Go语言/golang 从零实现 RPC 框架 GeeRPC 教程(7 days implement golang remote procedure call framework from scratch tutorial)，动手写 RPC 框架，参照 golang 标准库 net/rpc 的实现，实现了服务端(server)、支持异步和并发的客户端(client)、消息编码与解码(message encoding and decoding)、服务注册(service register)、支持 TCP/Unix/HTTP 等多种传输协议。第三天实现了服务注册，即将 Go 语言结构体通过反射映射为服务。
+description: >-
+  7天用 Go语言/golang 从零实现 RPC 框架 GeeRPC 教程(7 days implement golang remote procedure call framework from scratch
+  tutorial)，动手写 RPC 框架，参照 golang 标准库 net/rpc 的实现，实现了服务端(server)、支持异步和并发的客户端(client)、消息编码与解码(message encoding and
+  decoding)、服务注册(service register)、支持 TCP/Unix/HTTP 等多种传输协议。第三天实现了服务注册，即将 Go 语言结构体通过反射映射为服务。
+date: '2020-10-08 03:00:00'
 tags:
-- Go
-nav: 从零实现
-categories:
-- RPC框架 - GeeRPC
-keywords:
-- Go语言
-- 从零实现RPC框架
-- 反射
-- 服务
-image: post/geerpc/geerpc.jpg
-github: https://github.com/geektutu/7days-golang
-book: 七天用Go从零实现系列
-book_title: Day3 服务注册
+  - Go
+book: 7days-golang
+status: done
+draft: false
+cover: geerpc/geerpc.jpg
 ---
 
 ![golang RPC framework](geerpc/geerpc.jpg)
