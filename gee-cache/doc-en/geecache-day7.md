@@ -1,5 +1,5 @@
 ---
-title: Implement a Distributed Cache in Go - GeeCache Day 7: Communicating with Protobuf
+title: Implement a Distributed Cache in Go - GeeCache Day 7 Communicating with Protobuf
 description: >-
   A tutorial on implementing the distributed cache GeeCache from scratch in Go (7 days implement golang distributed cache from scratch tutorial), building a distributed cache modeled after
   groupcache. This article describes using protobuf (protocol buffer) for communication between nodes, encoding messages to improve efficiency.

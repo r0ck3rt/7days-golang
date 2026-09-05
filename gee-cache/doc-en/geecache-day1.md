@@ -1,5 +1,5 @@
 ---
-title: Implement a Distributed Cache in Go - GeeCache Day 1: LRU (Least Recently Used)
+title: Implement a Distributed Cache in Go - GeeCache Day 1 LRU Cache Eviction Strategy
 description: >-
   7 Days Go Distributed Cache Tutorial Series from scratch (7 days implement golang distributed cache from scratch tutorial). Build a distributed cache by hand, modeled after the implementation of
   groupcache. This article introduces the three most common cache eviction (expiry) algorithms: First In First Out (FIFO), Least Frequently Used (LFU), and Least Recently Used (LRU), and implements the LRU algorithm along with the corresponding test code.

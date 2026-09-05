@@ -1,5 +1,5 @@
 ---
-title: Implement an ORM Framework in Go - GeeORM Day 7: Database Migration
+title: Implement an ORM Framework in Go - GeeORM Day 7 Database Migration
 description: >-
   A 7-day tutorial on implementing an ORM framework GeeORM in Go/golang from scratch (7 days implement golang object relational mapping framework from scratch
   tutorial). Build an ORM framework modeled after the implementations of gorm and xorm. When a struct changes, the fields of the database table are migrated

@@ -1,5 +1,5 @@
 ---
-title: Implement an ORM Framework in Go - GeeORM Day 3: Record Operations
+title: Implement an ORM Framework in Go - GeeORM Day 3 Record Operations
 description: >-
   7 days to implement the ORM framework GeeORM in Go/golang from scratch tutorial (7 days implement golang object relational mapping framework from scratch
   tutorial), write an ORM framework by hand, modeled after gorm and xorm. Implement inserting (insert) records; use reflection (reflect) to convert database records into the corresponding struct instances, implementing the query (select) feature.

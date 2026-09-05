@@ -1,5 +1,5 @@
 ---
-title: Implement an RPC Framework in Go - GeeRPC Day 6: Load Balancing
+title: Implement an RPC Framework in Go - GeeRPC Day 6 Load Balancing
 description: >-
   A 7-day tutorial on implementing an RPC framework in Go/golang from scratch (7 days implement golang remote procedure call framework from scratch
   tutorial). Build an RPC framework modeled after the implementation of the golang standard library net/rpc, covering the server, an asynchronous and
@@ -28,7 +28,7 @@ Suppose there are multiple service instances, each providing the same functional
 - Random selection - pick one at random from the list of servers.
 - Round Robin - schedule different servers in turn, executing i = (i + 1) mod n on each dispatch.
 - Weighted Round Robin - building on the Round Robin algorithm, assign a weight to each service instance, giving higher weights to higher-performance machines; weights can also be adjusted dynamically based on the current load of each instance, for example, by considering the CPU and memory consumption of the servers over the last 5 minutes.
-- Hash/consistent hashing - compute a hash value based on certain characteristics of the request, and route the request to the corresponding machine according to the hash. Consistent hashing can also solve the scheduling jitter problem when service instances are added dynamically. A typical application scenario of consistent hashing is distributed caching. If you are interested, read [Implement a Distributed Cache in Go - GeeCache Day 4: Consistent Hashing (Hash)](https://geektutu.com/post/geecache-day4.html)
+- Hash/consistent hashing - compute a hash value based on certain characteristics of the request, and route the request to the corresponding machine according to the hash. Consistent hashing can also solve the scheduling jitter problem when service instances are added dynamically. A typical application scenario of consistent hashing is distributed caching. If you are interested, read [Implement a Distributed Cache in Go - GeeCache Day 4 Consistent Hashing (Hash)](https://geektutu.com/post/geecache-day4.html)
 - ...
 
 ## Service Discovery

@@ -1,5 +1,5 @@
 ---
-title: Building a Web Framework in Go - Gee Day 2: Context
+title: Building a Web Framework in Go - Gee Day 2 Context
 description: >-
   A tutorial on implementing a Web framework from scratch in Go (7 days implement golang web framework from scratch tutorial), build a Web framework by hand in Go/golang, and design
   a Web framework from scratch modeled after Gin. This article introduces the design idea of the request context (Context), which wraps methods for returning JSON/String/Data/HTML and other types of responses.

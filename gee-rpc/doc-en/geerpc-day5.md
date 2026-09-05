@@ -1,5 +1,5 @@
 ---
-title: Implement an RPC Framework in Go - GeeRPC Day 5: HTTP Protocol Support
+title: Implement an RPC Framework in Go - GeeRPC Day 5 HTTP Protocol Support
 description: >-
   A 7-day tutorial on implementing the RPC framework GeeRPC in Go/golang from scratch (7 days
   implement golang remote procedure call framework from scratch tutorial). Build an RPC
@@ -129,7 +129,7 @@ type Handler interface {
 
 In other words, implementing the Handler interface is all it takes to act as an HTTP handler and process HTTP requests. The Handler interface defines only one method, `ServeHTTP`, so we just need to implement it.
 
-> For more about http.Handler, we recommend reading [Writing a Web Framework in Go - Gee Day 1: http.Handler](https://geektutu.com/post/gee-day1.html)
+> For more about http.Handler, we recommend reading [Writing a Web Framework in Go - Gee Day 1 http.Handler](https://geektutu.com/post/gee-day1.html)
 
 ## HTTP Support on the Client Side
 

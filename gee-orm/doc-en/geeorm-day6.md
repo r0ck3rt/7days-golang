@@ -1,5 +1,5 @@
 ---
-title: Implement an ORM Framework in Go - GeeORM Day 6: Transactions
+title: Implement an ORM Framework in Go - GeeORM Day 6 Transactions
 description: >-
   A 7-day tutorial on implementing an ORM framework GeeORM in Go/golang from scratch (7 days implement golang object relational mapping framework from scratch
   tutorial). Build an ORM framework modeled after the implementations of gorm and xorm. Introduces transactions in databases; wraps transactions, using

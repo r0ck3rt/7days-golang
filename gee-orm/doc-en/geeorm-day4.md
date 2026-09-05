@@ -1,5 +1,5 @@
 ---
-title: Implement an ORM Framework in Go - GeeORM Day 4: Chain Operations, Update and Delete
+title: Implement an ORM Framework in Go - GeeORM Day 4 Chain Operations, Update and Delete
 description: >-
   7 days to implement the ORM framework GeeORM in Go/golang from scratch tutorial (7 days implement golang object relational mapping framework from scratch
   tutorial), write an ORM framework by hand, modeled after gorm and xorm. Support stacking query conditions (where, order by, limit,

@@ -1,5 +1,5 @@
 ---
-title: Building a Web Framework in Go - Gee Day 1: http.Handler
+title: Building a Web Framework in Go - Gee Day 1 http.Handler
 description: >-
   A tutorial on implementing a Web framework from scratch in Go (7 days implement golang web framework from scratch tutorial), build a Web framework by hand in Go/golang, and design
   a Web framework from scratch modeled after Gin. This article introduces the use of Go's standard library net/http and the http.Handler interface, intercepting all HTTP requests and

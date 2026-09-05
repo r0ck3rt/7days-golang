@@ -1,5 +1,5 @@
 ---
-title: Implement an RPC Framework in Go - GeeRPC Day 4: Timeout Processing
+title: Implement an RPC Framework in Go - GeeRPC Day 4 Timeout Processing
 description: >-
   A 7-day tutorial on implementing the RPC framework GeeRPC in Go/golang from scratch (7 days
   implement golang remote procedure call framework from scratch tutorial). Build an RPC

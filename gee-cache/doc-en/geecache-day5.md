@@ -1,5 +1,5 @@
 ---
-title: Implement a Distributed Cache in Go - GeeCache Day 5: Distributed Nodes
+title: Implement a Distributed Cache in Go - GeeCache Day 5 Distributed Nodes
 description: >-
   A tutorial on implementing the distributed cache GeeCache from scratch in Go (7 days implement golang distributed cache from scratch tutorial), building a distributed cache modeled after
   groupcache. This article adds node registration and node selection to GeeCache, and implements an HTTP client to communicate with the servers of remote nodes.

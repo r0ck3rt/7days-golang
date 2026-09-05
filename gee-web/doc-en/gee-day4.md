@@ -1,5 +1,5 @@
 ---
-title: Building a Web Framework in Go - Gee Day 4: Group
+title: Building a Web Framework in Go - Gee Day 4 Group
 description: >-
   A 7-day tutorial on implementing a Web framework from scratch in Go (7 days implement golang web framework from
   scratch tutorial). Build a Web framework from scratch with Go/golang, with Gin as the design prototype. This

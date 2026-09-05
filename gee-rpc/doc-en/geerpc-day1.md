@@ -1,5 +1,5 @@
 ---
-title: Implement an RPC Framework in Go - GeeRPC Day 1: Server and Message Encoding
+title: Implement an RPC Framework in Go - GeeRPC Day 1 Server and Message Encoding
 description: >-
   A 7-day tutorial on implementing an RPC framework in Go/golang from scratch (7 days implement golang remote procedure call framework from scratch
   tutorial). Build an RPC framework modeled after the implementation of the golang standard library net/rpc, covering the server, an asynchronous and

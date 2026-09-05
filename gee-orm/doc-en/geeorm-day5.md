@@ -1,5 +1,5 @@
 ---
-title: Implement an ORM Framework in Go - GeeORM Day 5: Implementing Hooks
+title: Implement an ORM Framework in Go - GeeORM Day 5 Implementing Hooks
 description: >-
   7 days to implement the ORM framework GeeORM in Go/golang from scratch tutorial (7 days implement golang object relational mapping framework from scratch
   tutorial), write an ORM framework by hand, modeled after gorm and xorm. Use reflection (reflect) to obtain the hooks (hooks) bound to a struct and invoke them; support calling hooks before and after CRUD (create, read, update, delete) operations.

@@ -1,5 +1,5 @@
 ---
-title: Implement a Distributed Cache in Go - GeeCache Day 4: Consistent Hashing (Hash)
+title: Implement a Distributed Cache in Go - GeeCache Day 4 Consistent Hashing (Hash)
 description: >-
   A tutorial on implementing the distributed cache GeeCache from scratch in Go (7 days implement golang distributed cache from scratch tutorial), building a distributed cache modeled after
   groupcache. This article introduces the principle of consistent hashing, its implementation, and related test cases: why consistent hashing can prevent cache avalanches, and why virtual nodes solve the problem of data skew.

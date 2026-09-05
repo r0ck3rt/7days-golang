@@ -1,5 +1,5 @@
 ---
-title: Implement an ORM Framework in Go - GeeORM Day 2: Mapping Structs to Tables
+title: Implement an ORM Framework in Go - GeeORM Day 2 Mapping Structs to Tables
 description: >-
   A tutorial on implementing the ORM framework GeeORM in Go/golang from scratch in 7 days (7 days implement golang object relational
   mapping framework from scratch tutorial). Build an ORM framework by hand, modeled after gorm and xorm. This article uses reflection

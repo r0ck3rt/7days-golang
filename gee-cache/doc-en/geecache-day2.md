@@ -1,5 +1,5 @@
 ---
-title: Implement a Distributed Cache in Go - GeeCache Day 2: Single-Node Concurrent Cache
+title: Implement a Distributed Cache in Go - GeeCache Day 2 Single-Node Concurrent Cache
 description: >-
   7 Days Go Distributed Cache Tutorial Series from scratch (7 days implement golang distributed cache from scratch tutorial). Build a distributed cache by hand, modeled after the implementation of
   groupcache. This article introduces the use of the sync.Mutex mutual exclusion lock to control concurrency for the LRU cache. It implements GeeCache's core data structure Group; when the cache misses, a callback function is invoked to fetch the source data.
